@@ -1,0 +1,295 @@
+<link rel="import" href="app-theme.html" />
+<dom-module id="summary-view">
+    <template>
+        <style include="app-theme"></style>
+        <style>
+            :host {
+                display: block;
+            }
+            #prev,
+            #next {
+                outline: none;
+                cursor: pointer;
+                color: var(--text-primary-color);
+                background: none;
+                border: none;
+                border-bottom: 1px solid transparent;
+                font-size: 12px;
+                text-transform: uppercase;
+                font-weight: bold;
+                margin: 8px;
+                position: relative;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                z-index: 10;
+            }
+            #prev {
+                float: left;
+                padding: 5px;
+            }
+            #next iron-icon,
+            #prev iron-icon {
+                fill: #00bfa5;
+                --iron-icon-height: 18px;
+                --iron-icon-width: 18px;
+            }
+            #next {
+                float: right;
+                padding: 5px;
+            }
+            #controls::after {
+                content: "";
+                display: block;
+                clear: both;
+            }
+            summary-rings {
+                position: relative;
+                z-index: 9;
+            }
+            @media (max-width: 839px) {
+                #summary-tables {
+                    @apply(--layout-vertical);
+                }
+                #summary-tables summary-table {
+                    margin: 10px 0 20px 0;
+                }
+            }
+            @media (min-width: 840px) {
+                #summary-tables {
+                    @apply(--layout-horizontal);
+                    @apply(--layout-wrap);
+                }
+                #summary-tables summary-table {
+                    width: 50%;
+                    padding: 10px 20px;
+                    box-sizing: border-box;
+                }
+            }
+        </style>
+        <app-toolbar user="[[user]]">
+            <span class="h1">Summary</span>
+            <span class="h2">TIME <span class="circle">[[weekData.date_time]]</span></span>
+            <span class="details">
+                <span>[[_timeStartDate(date_time)]]</span>
+                &ndash;
+                <span>[[_timeEndDate(date_time)]]</span>
+            </span>
+        </app-toolbar>
+        <div id="controls">
+            <div id="prev" on-tap="_prevWeek">
+                <iron-icon icon="app-icons:chevron-left"></iron-icon>
+                Previous week
+            </div>
+            <div id="next" on-tap="_nextWeek">
+                Next week
+                <iron-icon icon="app-icons:chevron-right"></iron-icon>
+            </div>
+        </div>
+        <summary-rings id="summary" summary-rows="[[_measureSummary(weekData, user)]]" on-tap="_showDetails"></summary-rings>
+
+        <div id="summary-tables" on-tap="_showDetails">
+            <template is="dom-repeat" items="[[_workoutsBySport(weekData)]]">
+                <summary-table workouts="[[item]]" goals="[[_goalSummary(weekData, user)]]"></summary-table>
+            </template>
+        </div>
+    </template>
+
+    <script>
+        Polymer({
+            is: 'summary-view',
+            behaviors: [
+                Polymer.NeonAnimatableBehavior
+            ],
+            properties: {
+                user: Object,
+                sensorData: Object,
+                animationConfig: {
+                    value: function() {
+                        return {
+                            'entry': {
+                                name: 'slide-from-left-animation',
+                                node: this
+                            },
+                            'exit': {
+                                name: 'slide-left-animation',
+                                node: this
+                            }
+                        };
+                    }
+                }
+            },
+/*            _goalSummary: function(weekData, user) {
+                var totals = this._totalsBySport(weekData);
+                return user.goals.map(function(goal) {
+                    var achieved = 0;
+                    var total = 0;
+                    if (totals[goal.sport]) {
+                        total = totals[goal.sport][goal.type];
+                        achieved = Math.round(total / goal.goal * 100);
+                    }
+                    return {
+                        goal: goal,
+                        value: achieved,
+                        left: Math.max(0, goal.goal - total)
+                    };
+                });
+            },*/
+            _measureSummary: function(sensorData, user) {
+                var totals = this._totalsByMeasure(sensorData);
+                return user.sensors.map(function(sensor) {
+                    var achieved = 0;
+                    var total = 0;
+                    var count = 0;
+                    var unit = '';
+                    if(sensor.name == "blood-pressure") {
+                        total = totals["systolic_blood_pressure"].value;
+                        count = totals["systolic_blood_pressure"].count;
+                        unit = totals["systolic_blood_pressure"].unit;
+                        achieved = Math.round(total / count);
+                    } else if (totals[sensor.name]) {
+                        total = totals[sensor.name].value;
+                        count = totals[sensor.name].count;
+                        unit = totals[sensor.name].unit;
+                        achieved = Math.round(total / count);
+                    }
+                    return {
+                        sesnor: sensor,
+                        value: achieved,
+                        unit: unit,
+                        left: Math.max(0, 0 - total)
+                    };
+                });
+            },
+            _uniqueSports: function(weekData) {
+                return weekData.workouts.reduce(function(result, workout) {
+                    if (result.indexOf(workout.sport) === -1) {
+                        result.push(workout.sport);
+                    }
+                    return result;
+                }, []);
+
+            },
+/*            _totalsBySport: function(weekData) {
+                var result = {};
+                weekData.workouts.forEach(function(workout) {
+                    if (!result[workout.sport]) {
+                        result[workout.sport] = {
+                            duration: 0,
+                            distance: 0
+                        };
+                    }
+                    result[workout.sport].duration += workout.duration;
+                    result[workout.sport].distance += workout.distance;
+                });
+                return result;
+            },*/
+            _totalsByMeasure: function(sensorData) {
+                var result = {};
+                sensorData.data.forEach(function(measure) {
+                    // initialise the element in the map
+                    if(measure.header.schema_id.name == "blood-pressure") {
+                        // if it is blood pressure, create an entry for each of two type of blood pressure measurement
+                        if(!result["systolic_blood_pressure"]) {
+                            result["systolic_blood_pressure"] = {
+                                value: 0,
+                                count: 0,
+                                unit: ''
+                            };
+                        }
+                        if(!result["diastolic_blood_pressure"]) {
+                            result["diastolic_blood_pressure"] = {
+                                value: 0,
+                                count: 0,
+                                unit: ''
+                            };
+                        }
+                    } else if (!result[measure.header.schema_id.name]) {
+                        result[measure.header.schema_id.name] = {
+                            value: 0,
+                            count: 0,
+                            unit: ''
+                        };
+                    }
+                    // Now sum up sensor value for each sensor type
+                    var measureType = measure.header.schema_id.name;
+                    switch(measureType) {
+                        case "blood-pressure":
+                            result["systolic_blood_pressure"].value += measure.body.systolic_blood_pressure.value;
+                            result["diastolic_blood_pressure"].value += measure.body.diastolic_blood_pressure.value;
+                            result["systolic_blood_pressure"].count +=1;
+                            result["diastolic_blood_pressure"].count +=1;
+                            result["systolic_blood_pressure"].unit = measure.body.systolic_blood_pressure.unit;
+                            result["diastolic_blood_pressure"].unit = measure.body.diastolic_blood_pressure.unit;
+                            break;
+                        case "body-weight":
+                            result[measure.header.schema_id.name].value += measure.body.body_weight.value;
+                            result[measure.header.schema_id.name].count +=1;
+                            result[measure.header.schema_id.name].unit = measure.body.body_weight.unit;
+                            break;
+                        case "body-height":
+                            result[measure.header.schema_id.name].value += measure.body.body_height.value;
+                            result[measure.header.schema_id.name].count +=1;
+                            result[measure.header.schema_id.name].unit = measure.body.body_height.unit;
+                            break;
+                        case "heart-rate":
+                            result[measure.header.schema_id.name].value += measure.body.heart_rate.value;
+                            result[measure.header.schema_id.name].count +=1;
+                            result[measure.header.schema_id.name].unit = "BPM";
+                            break;
+                        case "body-temperature":
+                            result[measure.header.schema_id.name].value += measure.body.body_temperature.value;
+                            result[measure.header.schema_id.name].count +=1;
+                            result[measure.header.schema_id.name].unit = measure.body.body_temperature.unit;
+                            break;
+                        case "sleep-duration":
+                            result[measure.header.schema_id.name].value += measure.body.sleep_duration.value;
+                            result[measure.header.schema_id.name].count +=1;
+                            result[measure.header.schema_id.name].unit = measure.body.sleep_duration.unit;
+                            break;
+                        case "oxygen-saturation":
+                            result[measure.header.schema_id.name].value += measure.body.oxygen_saturation.value;
+                            result[measure.header.schema_id.name].count +=1;
+                            result[measure.header.schema_id.name].unit = measure.body.oxygen_saturation.unit;
+                            break;
+                        default:
+                            console.log("Unknown measure -> " + measure.header.schema_id.name);
+                    }
+                });
+                return result;
+            },
+            _workoutsBySport: function(weekData) {
+                var sports = this._uniqueSports(weekData);
+
+                var result = [];
+                weekData.workouts.forEach(function(workout) {
+                    var index = sports.indexOf(workout.sport);
+                    if (!result[index]) {
+                        result[index] = [];
+                    }
+                    result[index].push(workout);
+                });
+                return result;
+            },
+            _timeStartDate: function(date_time) {
+                return moment(date_time).format('h:mm:ss');
+            },
+            _timeEndDate: function(date_time) {
+                return moment(date_time).format('h:mm:ss');
+            },
+            _nextWeek: function() {
+                this.fire('next-week');
+            },
+            _prevWeek: function() {
+                this.fire('prev-week');
+            },
+            _getTotal: function(summaryRows) {
+                return summaryRows[0].value + '%';
+            },
+            _showDetails: function() {
+                this.fire('navigate', 'details');
+            }
+        });
+    </script>
+</dom-module>

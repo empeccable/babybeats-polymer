@@ -1,0 +1,219 @@
+<link rel="import" href="app-theme.html" />
+<dom-module id="summary-table">
+    <template>
+        <style include="app-theme"></style>
+        <style>
+            :host {
+                display: block;
+                cursor: pointer;
+            }
+            #head {
+                color: #fff;
+                background: #00bfa5;
+                font-size: 13px;
+                font-weight: bold;
+            }
+            #head span {
+                display: inline-block;
+            }
+            #sport,
+            #status {
+                padding: 6px 12px;
+            }
+            #sport {
+                min-width: 80px;
+                position: relative;
+                background: var(--text-primary-color);
+                text-transform: uppercase;
+            }
+            #sport:after {
+                content: '';
+                position: absolute;
+                top: 0;
+                right: -5px;
+                display: block;
+                width: 10px;
+                height: 100%;
+                background: inherit;
+                -webkit-transform: skew(-15deg);
+                transform: skew(-15deg);
+            }
+            #status {
+                float: right;
+            }
+            table {
+                width: 100%;
+                color: #00bfa5;
+                font-weight: bold;
+                font-size: 14px;
+            }
+            table tr:nth-child(odd) {
+                background: #eff8f8;
+            }
+            table td {
+                padding: 15px 20px;
+            }
+            table td.right {
+                text-align: right;
+            }
+            iron-icon {
+                float: left;
+                margin-left: 12px;
+            }
+            h2 {
+                padding: 0;
+                margin: 5px;
+                height: 64px;
+                line-height: 80px;
+                text-align: center;
+                font-size: 35px;
+                font-weight: 100;
+            }
+            @media (min-width: 840px) {
+                table {
+                    padding-left: 100px;
+                }
+                #head {
+                    margin-left: 100px;
+                }
+                #sport,
+                #status {
+                    width: 100%;
+                    box-sizing: border-box;
+                }
+                #sport::after {
+                    display: none;
+                }
+                #status {
+                    background: #00bfa5;
+                    text-align: left;
+                    margin-left: 0;
+                }
+                iron-icon {
+                    margin-top: 65px;
+                }
+            }
+            @media (max-width: 340px) {
+                #head {
+                    font-size: 11px;
+                }
+            }
+        </style>
+        <iron-icon src="[[_iconUrl(sport)]]" class="huge"></iron-icon>
+        <h2>
+            <template is="dom-if" if="[[isDistanceSport]]">
+                <span>[[_formatDistance(totalDistance)]]</span>
+            </template>
+            <template is="dom-if" if="[[!isDistanceSport]]">
+                <span>[[_formatDuration(totalDuration)]]</span>
+            </template>
+        </h2>
+        <div id="head">
+            <span id="sport">[[sport]]</span>
+            <span id="status">[[_goalStatus(goals, sport)]]</span>
+        </div>
+        <table cellpadding="0" cellspacing="0">
+            <template is="dom-repeat" items="[[workouts]]">
+                <tr>
+                    <td>[[_formatDate(item.date)]]</td>
+                    <template is="dom-if" if="[[isDistanceSport]]">
+                        <td class="right">[[_formatDistance(item.distance)]]</td>
+                    </template>
+                    <template is="dom-if" if="[[!isDistanceSport]]">
+                        <td class="right">[[_formatDuration(item.duration)]]</td>
+                    </template>
+                </tr>
+            </template>
+            <!-- <tr>
+                <td colspan="2">+ 2 MORE RUNNING WORKOUTS</td>
+            </tr> -->
+        </table>
+    </template>
+    <script>
+        Polymer({
+            is: 'summary-table',
+
+            properties: {
+                workouts: Array,
+                goals: Array,
+                sport: {
+                    type: String,
+                    computed: '_computeSport(workouts)'
+                },
+                totalDistance: {
+                    type: Number,
+                    computed: '_computeTotalDistance(workouts)'
+                },
+                totalDuration: {
+                    type: Number,
+                    computed: '_computeTotalDuration(workouts)'
+                },
+                isDistanceSport: {
+                    type: Boolean,
+                    computed: '_computeDistanceSport(goals, sport)'
+                }
+            },
+
+            _getGoal: function(goals, sport) {
+                for (var i = 0; i < goals.length; i++) {
+                    if (goals[i].goal.sport === sport) {
+                        return goals[i];
+                    }
+                }
+            },
+
+            _goalStatus: function(goals, sport) {
+                var goal = this._getGoal(goals, sport);
+                if (goal) {
+                    var msg = goal.value + '% complete – ';
+                    if (goal.goal.type === 'distance') {
+                        msg += Formatters.distance(goal.left);
+                    } else {
+                        msg += Formatters.duration(goal.left);
+                    }
+                    msg += ' to goal';
+                    return msg;
+                } else {
+                    return 'No goal set';
+                }
+            },
+
+            _formatDate: function(date) {
+                return Formatters.date(date);
+            },
+
+            _formatDistance: function(distance) {
+                return Formatters.distance(distance);
+            },
+
+            _formatDuration: function(duration) {
+                return Formatters.duration(duration, true);
+            },
+
+            _computeSport: function(workouts) {
+                return workouts[0].sport;
+            },
+
+            _computeDistanceSport: function(goals, sport) {
+                var goal = this._getGoal(goals, sport);
+                if (goal) {
+                    return goal.goal.type === 'distance';
+                } else {
+                    return false;
+                }
+            },
+
+            _computeTotalDistance: function(workouts) {
+                return workouts.reduce(function(acc, workout) { return acc += workout.distance; }, 0);
+            },
+
+            _computeTotalDuration: function(workouts) {
+                return workouts.reduce(function(acc, workout) { return acc += workout.duration; }, 0);
+            },
+
+            _iconUrl: function(sport) {
+                return 'resources/sport-icons/' + sport + '/' + sport + '-128.png';
+            }
+        });
+    </script>
+</dom-module>

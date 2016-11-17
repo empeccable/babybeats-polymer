@@ -1,0 +1,29 @@
+{
+  "name": "babybeats-polymer",
+  "version": "1.0.0",
+  "authors": [
+    "dawudr <dawud@empeccableweb.com>"
+  ],
+  "private": true,
+  "dependencies": {
+    "google-map": "~1.1.0",
+    "iron-ajax": "polymerelements/iron-ajax#~1.0.4",
+    "iron-flex-layout": "polymerelements/iron-flex-layout#~1.0.3",
+    "iron-icon": "polymerelements/iron-icon#~1.0.4",
+    "moment": "~2.10.6",
+    "neon-animation": "polymerelements/neon-animation#~1.0.6",
+    "page": "page.js#~1.6.3",
+    "paper-toast": "polymerelements/paper-toast#~1.0.0",
+    "paper-toolbar": "polymerelements/paper-toolbar#~1.0.4",
+    "paper-tooltip": "polymerelements/paper-tooltip#~1.1.0",
+    "polymer": "~1.2.0",
+    "vaadin-charts": "3.0.0-alpha7",
+    "vaadin-grid": "0.9.0-beta5",
+    "paper-dialog": "polymerelements/paper-dialog#~1.0.2",
+    "vaadin-icons": "vaadin/vaadin-icons#v1.0.0-alpha1"
+  },
+  "resolutions": {
+    "polymer": "^1.5.0",
+    "web-animations-js": "^2.2.0"
+  }
+}

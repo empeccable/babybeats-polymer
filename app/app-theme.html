@@ -1,0 +1,37 @@
+<dom-module id="app-theme">
+    <template>
+        <style>
+            body {
+                width: 100vw;
+                overflow-x: hidden;
+                background: #fff;
+                @apply(--paper-font-common-base);
+            }
+            :root {
+                --default-primary-color: #61b3e3; //#8bd7f1; //#a7ffeb;
+                --text-primary-color: #004d40;
+                --secondary-color: #61b3e3; //#dcfff7;
+            }
+            .big {
+                --iron-icon-height: 32px;
+                --iron-icon-width: 32px;
+            }
+            .huge {
+                --iron-icon-height: 64px;
+                --iron-icon-width: 64px;
+            }
+            neon-animated-pages {
+                height: 100%;
+            }
+            span.circle {
+                background: var(--text-primary-color);
+                color: #fff;
+                border-radius: 50%;
+                width: 1.8em;
+                height: 1.8em;
+                @apply(--layout-inline);
+                @apply(--layout-center-center);
+            }
+        </style>
+    </template>
+</dom-module>

@@ -1,0 +1,96 @@
+{
+  "date": "2015-10-11",
+  "device" : {
+    "id": "1",
+    "type": "TRACKER",
+    "battery": "High",
+    "version": "MobileTrack",
+    "lastSyncTime": "2015-10-11T11:38:03.530Z",
+    "status": "active"
+  },
+  "data" : {
+    "body": [
+      {
+        "date": "2015-10-11T11:38:03.530Z",
+        "type": "heart rate",
+        "value": 82,
+        "unit": "bpm"
+      },
+      {
+        "date": "2015-10-11T11:38:03.530Z",
+        "type": "sp02",
+        "value": 95,
+        "unit": "%"
+      },
+      {
+        "date": "2015-10-11T11:38:03.530Z",
+        "type": "temperature",
+        "value": 37,
+        "unit": "celsius"
+      },
+      {
+        "date": "2015-10-11T11:38:03.530Z",
+        "type": "diastolic",
+        "value": 124,
+        "unit": "mmHg"
+      },
+      {
+        "date": "2015-10-11T11:38:03.530Z",
+        "type": "systolic",
+        "value": 82,
+        "unit": "mmHg"
+      },
+      {
+        "date": "2015-10-11T11:38:03.530Z",
+        "type": "weight",
+        "value": 6.2,
+        "unit": "kg"
+      },
+      {
+        "date": "2015-10-11T11:38:03.530Z",
+        "type": "height",
+        "value": 0.6,
+        "unit": "meter"
+      },
+      {
+        "date": "2015-10-11T11:38:03.530Z",
+        "type": "calories",
+        "value": 100,
+        "unit": "cal"
+      },
+      {
+        "date": "2015-10-11T11:38:03.530Z",
+        "type": "sleep",
+        "value": 120,
+        "unit": "minutes"
+      }
+    ],
+    "sleep": [
+      {
+        "startdate": "2015-10-11T0:00:00.530Z",
+        "state": "deep sleep",
+        "enddate": "2015-10-11T06:00:00.530Z"
+      },
+      {
+        "startdate": "2015-10-11T06:00:01.530Z",
+        "state": "awake",
+        "enddate": "2015-10-11T06:59:59.530Z"
+      },
+      {
+        "startdate": "2015-10-11T7:00:00.530Z",
+        "state": "light sleep",
+        "enddate": "2015-10-11T08:59:59.530Z"
+      },
+      {
+        "startdate": "2015-10-11T09:00:00.530Z",
+        "state": "awake",
+        "enddate": "2015-10-11T19:29:59.530Z"
+      },
+      {
+        "startdate": "2015-10-11T19:30:00.530Z",
+        "state": "",
+        "enddate": "2015-10-11T23:59:59.530Z"
+      }
+    ]
+  }
+}

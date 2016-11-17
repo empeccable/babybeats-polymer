@@ -1,0 +1,30 @@
+<dom-module id="app-logo">
+    <template>
+        <style>
+            :host {
+                display: block;
+                cursor: pointer;
+            }
+            .logo {
+                background: var(--secondary-color);
+                border-radius: 50%;
+                padding: 10px;
+            }
+            .logo img {
+                display: block;
+            }
+        </style>
+        <div class="logo" on-tap="openAboutDialog">
+            <img src="resources/app-icon-transparent.png" width="32" height="32" />
+        </div>
+    </template>
+    <script>
+        Polymer({
+            is: 'app-logo',
+
+            openAboutDialog: function(e) {
+                this.fire('about');
+            }
+        });
+    </script>
+</dom-module>

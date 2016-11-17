@@ -1,0 +1,112 @@
+<!doctype html>
+<html manifest="manifest.appcache">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <title>Fitness Tracker</title>
+
+        <script src="bower_components/moment/min/moment.min.js"></script>
+        <script src="js/formatters.js"></script>
+        <link rel="import" id="bundle" href="elements.html" async />
+        <style>
+            body {
+                width: 100% !important;
+            }
+            body.loading {
+                width: 100vw;
+                height: 100vh;
+                overflow: hidden;
+            }
+            #loadingScreen {
+                display: block;
+                width: 100vw;
+                height: 100vh;
+                position: absolute;
+                top: 0;
+                left: 0;
+                opacity: 1 !important;
+                background: url(resources/app-icon-192x192.png) #dcfff7 center center no-repeat;
+                background-size: 96px 96px;
+                transition: opacity 400ms;
+                -webkit-animation: heartbeat 1000ms infinite;
+                animation: heartbeat 1000ms infinite;
+            }
+            .ready #loadingScreen {
+                opacity: 0 !important;
+            }
+            @-webkit-keyframes heartbeat {
+                0%  { -webkit-transform: scale(1); transform: scale(1); }
+                20% { -webkit-transform: scale(1.1); transform: scale(1.1); }
+                40% { -webkit-transform: scale(1); transform: scale(1); }
+                60% { -webkit-transform: scale(1.1); transform: scale(1.1); }
+                80% { -webkit-transform: scale(1); transform: scale(1); }
+            }
+            @keyframes heartbeat {
+                0%  { -webkit-transform: scale(1); transform: scale(1); }
+                20% { -webkit-transform: scale(1.1); transform: scale(1.1); }
+                40% { -webkit-transform: scale(1); transform: scale(1); }
+                60% { -webkit-transform: scale(1.1); transform: scale(1.1); }
+                80% { -webkit-transform: scale(1); transform: scale(1); }
+            }
+        </style>
+
+        <!-- Chrome -->
+        <meta name="theme-color" content="#a7ffeb" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <link rel="icon" sizes="192x192" href="resources/app-icon-192x192.png" />
+
+        <!-- iOS -->
+        <link rel="apple-touch-icon" href="resources/app-icon-192x192.png" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    </head>
+    <body class="fullbleed loading">
+        <div id="loadingScreen"></div>
+        <script>
+            // Configure Moment.js to start the week on Monday.
+            moment.locale('en', {
+                 week: {
+                     dow: 1
+                 }
+            });
+            var webComponentsSupported = ('registerElement' in document &&
+                'import' in document.createElement('link') &&
+                'content' in document.createElement('template'));
+            if (!webComponentsSupported) {
+                var script = document.createElement('script');
+                script.async = true;
+                script.src = 'bower_components/webcomponentsjs/webcomponents-lite.min.js';
+                script.onload = finishLazyLoading;
+                document.head.appendChild(script);
+            } else {
+                finishLazyLoading();
+            }
+
+            function finishLazyLoading() {
+                var link = document.querySelector('#bundle');
+                if (link.import && link.import.readyState === 'complete') {
+                    onImportLoaded();
+                } else {
+                    link.addEventListener('load', onImportLoaded);
+                }
+            }
+
+            function onImportLoaded() {
+                var loadingScreen = document.querySelector('#loadingScreen');
+                loadingScreen.addEventListener('transitionend', function() {
+                    // Remove the loading screen from DOM after CSS transition.
+                    document.body.removeChild(loadingScreen);
+                });
+
+                var appTheme = document.createElement('style', 'custom-style');
+                appTheme.setAttribute('include', 'app-theme');
+                document.head.appendChild(appTheme);
+
+                document.body.classList.remove('loading');
+                document.body.classList.add('ready');
+                var appElement = document.createElement('fitness-tracker');
+                document.body.appendChild(appElement);
+            }
+        </script>
+    </body>
+</html>

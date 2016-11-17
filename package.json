@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.9.1",
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-appcache": "0.0.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-vulcanize": "^6.0.1",
+    "merge-stream": "^1.0.0",
+    "polyclean": "^1.2.0",
+    "run-sequence": "^1.1.4"
+  }
+}
