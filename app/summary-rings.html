@@ -79,8 +79,8 @@
             <template is="dom-repeat" items="[[summaryRows]]">
                 <progress-bubble class="animation-off" stroke-width="35" max="100" value="[[_limit(item.value)]]">
                     <iron-icon src="[[_iconUrl(item.sensor.name)]]"></iron-icon>
-                    <span>[[item.sensor.name]]</span>
                     <span>[[item.value]]</span>
+                    <br>
                     <span>[[item.unit]]</span>
                 </progress-bubble>
             </template>
@@ -106,8 +106,8 @@
                 return Math.min(100, value);
             },
 
-            _iconUrl: function(sport) {
-                return 'resources/sport-icons-invert/' + sport + '-75.png';
+            _iconUrl: function(sensor) {
+                return 'resources/' + sensor + '.png';
             },
 
             _getTotal: function(summaryRows) {

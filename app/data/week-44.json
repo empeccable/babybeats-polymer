@@ -1,0 +1,4232 @@
+{
+  "date_time": "2015-09-30T11:38:03.530Z",
+  "device": {
+    "id": "1",
+    "type": "TRACKER",
+    "battery": "High",
+    "version": "MobileTrack",
+    "lastSyncTime": "2015-10-11T11:38:03.530Z",
+    "status": "active"
+  },
+  "data": [
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a278"
+      },
+      "header": {
+        "id": "e530fb30-ecfc-449f-b73d-309ad2cd97ec",
+        "creation_date_time": "2016-01-01T04:52:51Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T04:51:51Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "blood-pressure",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T04:51:51Z"
+        },
+        "systolic_blood_pressure": {
+          "unit": "mmHg",
+          "value": 108.2811560765557
+        },
+        "diastolic_blood_pressure": {
+          "unit": "mmHg",
+          "value": 66.99918753094882
+        }
+      },
+      "id": "e530fb30-ecfc-449f-b73d-309ad2cd97ec"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a279"
+      },
+      "header": {
+        "id": "b5c1be91-3792-49fd-bd72-95ec50c9f0c0",
+        "creation_date_time": "2016-01-01T01:37:53Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T01:36:53Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "blood-pressure",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T01:36:53Z"
+        },
+        "systolic_blood_pressure": {
+          "unit": "mmHg",
+          "value": 107.10674415401027
+        },
+        "diastolic_blood_pressure": {
+          "unit": "mmHg",
+          "value": 68.79817851260523
+        }
+      },
+      "id": "b5c1be91-3792-49fd-bd72-95ec50c9f0c0"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a27a"
+      },
+      "header": {
+        "id": "bf2915f9-8685-41b9-a94a-bbc331174de9",
+        "creation_date_time": "2016-01-01T06:52:03Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T06:51:03Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "blood-pressure",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T06:51:03Z"
+        },
+        "systolic_blood_pressure": {
+          "unit": "mmHg",
+          "value": 107.86684853247516
+        },
+        "diastolic_blood_pressure": {
+          "unit": "mmHg",
+          "value": 73.51444602975178
+        }
+      },
+      "id": "bf2915f9-8685-41b9-a94a-bbc331174de9"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a27b"
+      },
+      "header": {
+        "id": "441ec06e-7c6d-451e-b5b0-50822889a652",
+        "creation_date_time": "2016-01-01T10:09:12Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T10:08:12Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "blood-pressure",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T10:08:12Z"
+        },
+        "systolic_blood_pressure": {
+          "unit": "mmHg",
+          "value": 116.60778782809062
+        },
+        "diastolic_blood_pressure": {
+          "unit": "mmHg",
+          "value": 76.81326085169522
+        }
+      },
+      "id": "441ec06e-7c6d-451e-b5b0-50822889a652"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a27c"
+      },
+      "header": {
+        "id": "d3b5f569-4485-4eb9-9dd5-2fcbfd74e27f",
+        "creation_date_time": "2016-01-01T10:36:24Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T10:35:24Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "blood-pressure",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T10:35:24Z"
+        },
+        "systolic_blood_pressure": {
+          "unit": "mmHg",
+          "value": 115.78998957304839
+        },
+        "diastolic_blood_pressure": {
+          "unit": "mmHg",
+          "value": 68.82132604457325
+        }
+      },
+      "id": "d3b5f569-4485-4eb9-9dd5-2fcbfd74e27f"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a27d"
+      },
+      "header": {
+        "id": "f98f0b53-42e9-4e81-ab50-15dce8705c40",
+        "creation_date_time": "2016-01-01T10:49:49Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T10:48:49Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "blood-pressure",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T10:48:49Z"
+        },
+        "systolic_blood_pressure": {
+          "unit": "mmHg",
+          "value": 121.01282686919717
+        },
+        "diastolic_blood_pressure": {
+          "unit": "mmHg",
+          "value": 75.47096078808725
+        }
+      },
+      "id": "f98f0b53-42e9-4e81-ab50-15dce8705c40"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a27e"
+      },
+      "header": {
+        "id": "17badedf-33fe-4065-b8c3-8fc792ffb1cc",
+        "creation_date_time": "2016-01-01T12:05:17Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T12:04:17Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "blood-pressure",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T12:04:17Z"
+        },
+        "systolic_blood_pressure": {
+          "unit": "mmHg",
+          "value": 117.84546407746753
+        },
+        "diastolic_blood_pressure": {
+          "unit": "mmHg",
+          "value": 76.7907830244333
+        }
+      },
+      "id": "17badedf-33fe-4065-b8c3-8fc792ffb1cc"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a27f"
+      },
+      "header": {
+        "id": "3741f0b1-2612-408a-ba56-237ee85a9987",
+        "creation_date_time": "2016-01-01T12:34:57Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T12:33:57Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "blood-pressure",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T12:33:57Z"
+        },
+        "systolic_blood_pressure": {
+          "unit": "mmHg",
+          "value": 120.998923301234
+        },
+        "diastolic_blood_pressure": {
+          "unit": "mmHg",
+          "value": 72.16891805477464
+        }
+      },
+      "id": "3741f0b1-2612-408a-ba56-237ee85a9987"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a280"
+      },
+      "header": {
+        "id": "5fa5515b-9faa-4ab1-aaa2-ceb57f618cf0",
+        "creation_date_time": "2016-01-01T12:58:20Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T12:57:20Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "blood-pressure",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T12:57:20Z"
+        },
+        "systolic_blood_pressure": {
+          "unit": "mmHg",
+          "value": 121.65479011594866
+        },
+        "diastolic_blood_pressure": {
+          "unit": "mmHg",
+          "value": 72.74882003865137
+        }
+      },
+      "id": "5fa5515b-9faa-4ab1-aaa2-ceb57f618cf0"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a281"
+      },
+      "header": {
+        "id": "e2b98f8d-3b25-4433-be63-037d1225e8cf",
+        "creation_date_time": "2016-01-01T13:04:42Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T13:03:42Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "blood-pressure",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T13:03:42Z"
+        },
+        "systolic_blood_pressure": {
+          "unit": "mmHg",
+          "value": 117.49254187684797
+        },
+        "diastolic_blood_pressure": {
+          "unit": "mmHg",
+          "value": 69.85247362781995
+        }
+      },
+      "id": "e2b98f8d-3b25-4433-be63-037d1225e8cf"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a282"
+      },
+      "header": {
+        "id": "1057806c-5e85-4466-8560-8577339b8007",
+        "creation_date_time": "2016-01-01T15:26:27Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T15:25:27Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "blood-pressure",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T15:25:27Z"
+        },
+        "systolic_blood_pressure": {
+          "unit": "mmHg",
+          "value": 118.67352173830221
+        },
+        "diastolic_blood_pressure": {
+          "unit": "mmHg",
+          "value": 76.42833963626757
+        }
+      },
+      "id": "1057806c-5e85-4466-8560-8577339b8007"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a283"
+      },
+      "header": {
+        "id": "17198bed-5d6d-4844-b3e7-8128ea1a77f2",
+        "creation_date_time": "2016-01-01T14:55:26Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T14:54:26Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "blood-pressure",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T14:54:26Z"
+        },
+        "systolic_blood_pressure": {
+          "unit": "mmHg",
+          "value": 120.4801172623992
+        },
+        "diastolic_blood_pressure": {
+          "unit": "mmHg",
+          "value": 77.96522962145339
+        }
+      },
+      "id": "17198bed-5d6d-4844-b3e7-8128ea1a77f2"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a284"
+      },
+      "header": {
+        "id": "782318db-f985-4993-80fc-17cc6da53a8b",
+        "creation_date_time": "2016-01-01T15:34:09Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T15:33:09Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "blood-pressure",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T15:33:09Z"
+        },
+        "systolic_blood_pressure": {
+          "unit": "mmHg",
+          "value": 122.76307607374171
+        },
+        "diastolic_blood_pressure": {
+          "unit": "mmHg",
+          "value": 75.68618548311711
+        }
+      },
+      "id": "782318db-f985-4993-80fc-17cc6da53a8b"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a285"
+      },
+      "header": {
+        "id": "44bf300d-f187-4ab4-99c0-4cbf45549a76",
+        "creation_date_time": "2016-01-01T16:15:51Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T16:14:51Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "blood-pressure",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T16:14:51Z"
+        },
+        "systolic_blood_pressure": {
+          "unit": "mmHg",
+          "value": 122.38416732650107
+        },
+        "diastolic_blood_pressure": {
+          "unit": "mmHg",
+          "value": 78.33745193691757
+        }
+      },
+      "id": "44bf300d-f187-4ab4-99c0-4cbf45549a76"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a286"
+      },
+      "header": {
+        "id": "60da2689-9451-44aa-8ec6-0c1660d6fa0c",
+        "creation_date_time": "2016-01-01T17:07:40Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T17:06:40Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "blood-pressure",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T17:06:40Z"
+        },
+        "systolic_blood_pressure": {
+          "unit": "mmHg",
+          "value": 124.2644458876309
+        },
+        "diastolic_blood_pressure": {
+          "unit": "mmHg",
+          "value": 80.16350425644575
+        }
+      },
+      "id": "60da2689-9451-44aa-8ec6-0c1660d6fa0c"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a287"
+      },
+      "header": {
+        "id": "706b245c-fb5c-4c19-9637-a2c2c85a309c",
+        "creation_date_time": "2016-01-01T17:50:56Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T17:49:56Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "blood-pressure",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T17:49:56Z"
+        },
+        "systolic_blood_pressure": {
+          "unit": "mmHg",
+          "value": 112.22171776050477
+        },
+        "diastolic_blood_pressure": {
+          "unit": "mmHg",
+          "value": 80.95315486987263
+        }
+      },
+      "id": "706b245c-fb5c-4c19-9637-a2c2c85a309c"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a288"
+      },
+      "header": {
+        "id": "d9dc68e1-6892-4c3c-adc4-177f13e06b97",
+        "creation_date_time": "2016-01-01T19:51:04Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T19:50:04Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "blood-pressure",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T19:50:04Z"
+        },
+        "systolic_blood_pressure": {
+          "unit": "mmHg",
+          "value": 120.95354702038954
+        },
+        "diastolic_blood_pressure": {
+          "unit": "mmHg",
+          "value": 78.67841229488961
+        }
+      },
+      "id": "d9dc68e1-6892-4c3c-adc4-177f13e06b97"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a289"
+      },
+      "header": {
+        "id": "0e9a7fd8-fa4d-4d10-b99a-7cc44110ff8a",
+        "creation_date_time": "2016-01-01T21:39:30Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T21:38:30Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "blood-pressure",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T21:38:30Z"
+        },
+        "systolic_blood_pressure": {
+          "unit": "mmHg",
+          "value": 129.3410258431831
+        },
+        "diastolic_blood_pressure": {
+          "unit": "mmHg",
+          "value": 80.83649296020964
+        }
+      },
+      "id": "0e9a7fd8-fa4d-4d10-b99a-7cc44110ff8a"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a28a"
+      },
+      "header": {
+        "id": "8d0f4fbf-fe1a-4c69-8988-5d6088e90346",
+        "creation_date_time": "2016-01-01T21:51:46Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T21:50:46Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "blood-pressure",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T21:50:46Z"
+        },
+        "systolic_blood_pressure": {
+          "unit": "mmHg",
+          "value": 130.16047807454737
+        },
+        "diastolic_blood_pressure": {
+          "unit": "mmHg",
+          "value": 82.56421143588395
+        }
+      },
+      "id": "8d0f4fbf-fe1a-4c69-8988-5d6088e90346"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a28b"
+      },
+      "header": {
+        "id": "0c9c8b59-a85c-45a8-9ca3-77453e8113a3",
+        "creation_date_time": "2016-01-01T00:14:56Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T00:13:56Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "heart-rate",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T00:13:56Z"
+        },
+        "heart_rate": {
+          "unit": "beats/min",
+          "value": 71.78916543680415
+        }
+      },
+      "id": "0c9c8b59-a85c-45a8-9ca3-77453e8113a3"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a28c"
+      },
+      "header": {
+        "id": "d882486b-3414-41b1-b64a-2bef3b08ec59",
+        "creation_date_time": "2016-01-01T01:03:39Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T01:02:39Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "heart-rate",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T01:02:39Z"
+        },
+        "heart_rate": {
+          "unit": "beats/min",
+          "value": 99.6315848168858
+        }
+      },
+      "id": "d882486b-3414-41b1-b64a-2bef3b08ec59"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a28d"
+      },
+      "header": {
+        "id": "8a57abf8-ae4e-43fa-84e5-1318c9f7f6d1",
+        "creation_date_time": "2016-01-01T02:52:19Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T02:51:19Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "heart-rate",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T02:51:19Z"
+        },
+        "heart_rate": {
+          "unit": "beats/min",
+          "value": 85.74941415117934
+        }
+      },
+      "id": "8a57abf8-ae4e-43fa-84e5-1318c9f7f6d1"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a28e"
+      },
+      "header": {
+        "id": "5cabf514-f762-4034-bcf2-581ea4117299",
+        "creation_date_time": "2016-01-01T02:56:23Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T02:55:23Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "heart-rate",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T02:55:23Z"
+        },
+        "heart_rate": {
+          "unit": "beats/min",
+          "value": 100.13427109375634
+        }
+      },
+      "id": "5cabf514-f762-4034-bcf2-581ea4117299"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a28f"
+      },
+      "header": {
+        "id": "2f93661b-48a1-4e59-9290-f14c5c4eac02",
+        "creation_date_time": "2016-01-01T03:02:42Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T03:01:42Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "heart-rate",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T03:01:42Z"
+        },
+        "heart_rate": {
+          "unit": "beats/min",
+          "value": 62.1882801652286
+        }
+      },
+      "id": "2f93661b-48a1-4e59-9290-f14c5c4eac02"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a290"
+      },
+      "header": {
+        "id": "cc6cb87e-c91f-4b09-bbed-aab500b6a0d0",
+        "creation_date_time": "2016-01-01T03:43:00Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T03:42:00Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "heart-rate",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T03:42:00Z"
+        },
+        "heart_rate": {
+          "unit": "beats/min",
+          "value": 85.68424009081156
+        }
+      },
+      "id": "cc6cb87e-c91f-4b09-bbed-aab500b6a0d0"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a291"
+      },
+      "header": {
+        "id": "5c09ff55-0b1c-40e6-92c7-1fe97ddc389a",
+        "creation_date_time": "2016-01-01T06:05:21Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T06:04:21Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "heart-rate",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T06:04:21Z"
+        },
+        "heart_rate": {
+          "unit": "beats/min",
+          "value": 75.98590882570498
+        }
+      },
+      "id": "5c09ff55-0b1c-40e6-92c7-1fe97ddc389a"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a292"
+      },
+      "header": {
+        "id": "59871fb8-5bb2-4948-8ca3-17d12203ad31",
+        "creation_date_time": "2016-01-01T05:56:00Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T05:55:00Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "heart-rate",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T05:55:00Z"
+        },
+        "heart_rate": {
+          "unit": "beats/min",
+          "value": 78.853365964089
+        }
+      },
+      "id": "59871fb8-5bb2-4948-8ca3-17d12203ad31"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a293"
+      },
+      "header": {
+        "id": "aacdaa55-3ba4-4335-a4b5-b93e7621529f",
+        "creation_date_time": "2016-01-01T07:15:50Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T07:14:50Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "heart-rate",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T07:14:50Z"
+        },
+        "heart_rate": {
+          "unit": "beats/min",
+          "value": 85.59912145228137
+        }
+      },
+      "id": "aacdaa55-3ba4-4335-a4b5-b93e7621529f"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a294"
+      },
+      "header": {
+        "id": "fe5b55d8-6901-4e9b-ace4-5e2ebc9b3f8f",
+        "creation_date_time": "2016-01-01T07:37:12Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T07:36:12Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "heart-rate",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T07:36:12Z"
+        },
+        "heart_rate": {
+          "unit": "beats/min",
+          "value": 75.00594983431886
+        }
+      },
+      "id": "fe5b55d8-6901-4e9b-ace4-5e2ebc9b3f8f"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a295"
+      },
+      "header": {
+        "id": "910ce360-c83e-46ea-8b70-2d0d1ffa594c",
+        "creation_date_time": "2016-01-01T08:21:05Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T08:20:05Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "heart-rate",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T08:20:05Z"
+        },
+        "heart_rate": {
+          "unit": "beats/min",
+          "value": 75.67530644567054
+        }
+      },
+      "id": "910ce360-c83e-46ea-8b70-2d0d1ffa594c"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a296"
+      },
+      "header": {
+        "id": "c38da7b4-59eb-4c72-afff-fd49c31aa832",
+        "creation_date_time": "2016-01-01T14:05:26Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T14:04:26Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "heart-rate",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T14:04:26Z"
+        },
+        "heart_rate": {
+          "unit": "beats/min",
+          "value": 85.74342526166745
+        }
+      },
+      "id": "c38da7b4-59eb-4c72-afff-fd49c31aa832"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a297"
+      },
+      "header": {
+        "id": "2a9fc04e-942d-493d-a6e8-122864588707",
+        "creation_date_time": "2016-01-01T10:24:25Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T10:23:25Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "heart-rate",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T10:23:25Z"
+        },
+        "heart_rate": {
+          "unit": "beats/min",
+          "value": 87.19480524685513
+        }
+      },
+      "id": "2a9fc04e-942d-493d-a6e8-122864588707"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a298"
+      },
+      "header": {
+        "id": "9cd29998-2782-44b3-996d-7dbb8e75f4b2",
+        "creation_date_time": "2016-01-01T14:24:20Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T14:23:20Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "heart-rate",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T14:23:20Z"
+        },
+        "heart_rate": {
+          "unit": "beats/min",
+          "value": 88.68284249846693
+        }
+      },
+      "id": "9cd29998-2782-44b3-996d-7dbb8e75f4b2"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a299"
+      },
+      "header": {
+        "id": "19179ffa-0fd8-4d8d-a9ca-ed9c15d49fd9",
+        "creation_date_time": "2016-01-01T14:44:40Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T14:43:40Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "heart-rate",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T14:43:40Z"
+        },
+        "heart_rate": {
+          "unit": "beats/min",
+          "value": 90.71640794890375
+        }
+      },
+      "id": "19179ffa-0fd8-4d8d-a9ca-ed9c15d49fd9"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a29a"
+      },
+      "header": {
+        "id": "4c5c88e1-2ce4-42c5-b87d-573e2f919926",
+        "creation_date_time": "2016-01-01T15:08:30Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T15:07:30Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "heart-rate",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T15:07:30Z"
+        },
+        "heart_rate": {
+          "unit": "beats/min",
+          "value": 79.55548305322607
+        }
+      },
+      "id": "4c5c88e1-2ce4-42c5-b87d-573e2f919926"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a29b"
+      },
+      "header": {
+        "id": "ae88a630-e518-48f2-acaf-38f40d252ebc",
+        "creation_date_time": "2016-01-01T17:36:47Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T17:35:47Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "heart-rate",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T17:35:47Z"
+        },
+        "heart_rate": {
+          "unit": "beats/min",
+          "value": 89.1225259329316
+        }
+      },
+      "id": "ae88a630-e518-48f2-acaf-38f40d252ebc"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a29c"
+      },
+      "header": {
+        "id": "fcb3099b-ec70-43eb-8bc2-12922f155c25",
+        "creation_date_time": "2016-01-01T17:51:37Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T17:50:37Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "heart-rate",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T17:50:37Z"
+        },
+        "heart_rate": {
+          "unit": "beats/min",
+          "value": 90.32486084993744
+        }
+      },
+      "id": "fcb3099b-ec70-43eb-8bc2-12922f155c25"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a29d"
+      },
+      "header": {
+        "id": "fab71747-88c2-4f69-b5c9-c5dbd7a5ad1e",
+        "creation_date_time": "2016-01-01T20:17:40Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T20:16:40Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "heart-rate",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T20:16:40Z"
+        },
+        "heart_rate": {
+          "unit": "beats/min",
+          "value": 79.1475037162393
+        }
+      },
+      "id": "fab71747-88c2-4f69-b5c9-c5dbd7a5ad1e"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a29e"
+      },
+      "header": {
+        "id": "d5686bf9-8abd-45f5-82d0-bd316ae50e00",
+        "creation_date_time": "2016-01-01T22:49:41Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T22:48:41Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "heart-rate",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T22:48:41Z"
+        },
+        "heart_rate": {
+          "unit": "beats/min",
+          "value": 118.97248173797772
+        }
+      },
+      "id": "d5686bf9-8abd-45f5-82d0-bd316ae50e00"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a29f"
+      },
+      "header": {
+        "id": "5e06ebe8-0eca-43f6-943b-8c2b83e7cbfe",
+        "creation_date_time": "2016-01-01T22:58:55Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T22:57:55Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "heart-rate",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T22:57:55Z"
+        },
+        "heart_rate": {
+          "unit": "beats/min",
+          "value": 85.33036649715984
+        }
+      },
+      "id": "5e06ebe8-0eca-43f6-943b-8c2b83e7cbfe"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2a0"
+      },
+      "header": {
+        "id": "9b611575-aa3c-41b8-bd74-6bbfd74622e9",
+        "creation_date_time": "2016-01-01T02:30:25Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T02:29:25Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "minutes-moderate-activity",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T01:51:25Z",
+            "duration": {
+              "unit": "min",
+              "value": 38.718343200856864
+            }
+          }
+        },
+        "minutes_moderate_activity": {
+          "unit": "min",
+          "value": 38.718343200856864
+        }
+      },
+      "id": "9b611575-aa3c-41b8-bd74-6bbfd74622e9"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2a1"
+      },
+      "header": {
+        "id": "5b24ef02-8e75-464f-bcfd-80821472fa24",
+        "creation_date_time": "2016-01-01T04:16:19Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T04:15:19Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "minutes-moderate-activity",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T02:45:19Z",
+            "duration": {
+              "unit": "min",
+              "value": 90.55119620168072
+            }
+          }
+        },
+        "minutes_moderate_activity": {
+          "unit": "min",
+          "value": 90.55119620168072
+        }
+      },
+      "id": "5b24ef02-8e75-464f-bcfd-80821472fa24"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2a2"
+      },
+      "header": {
+        "id": "287b6e0d-18af-4816-ae70-b4401b00d908",
+        "creation_date_time": "2016-01-01T06:42:16Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T06:41:16Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "minutes-moderate-activity",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T05:17:16Z",
+            "duration": {
+              "unit": "min",
+              "value": 84.3551536270829
+            }
+          }
+        },
+        "minutes_moderate_activity": {
+          "unit": "min",
+          "value": 84.3551536270829
+        }
+      },
+      "id": "287b6e0d-18af-4816-ae70-b4401b00d908"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2a3"
+      },
+      "header": {
+        "id": "b2106807-3581-43a2-a569-35e57674b662",
+        "creation_date_time": "2016-01-01T07:11:47Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T07:10:47Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "minutes-moderate-activity",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T05:25:47Z",
+            "duration": {
+              "unit": "min",
+              "value": 105.95571991244118
+            }
+          }
+        },
+        "minutes_moderate_activity": {
+          "unit": "min",
+          "value": 105.95571991244118
+        }
+      },
+      "id": "b2106807-3581-43a2-a569-35e57674b662"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2a4"
+      },
+      "header": {
+        "id": "fff5c9da-036e-4578-882b-bec619c716aa",
+        "creation_date_time": "2016-01-01T08:30:48Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T08:29:48Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "minutes-moderate-activity",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T07:02:48Z",
+            "duration": {
+              "unit": "min",
+              "value": 87.21438764412639
+            }
+          }
+        },
+        "minutes_moderate_activity": {
+          "unit": "min",
+          "value": 87.21438764412639
+        }
+      },
+      "id": "fff5c9da-036e-4578-882b-bec619c716aa"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2a5"
+      },
+      "header": {
+        "id": "fb62ef40-62de-40e7-a175-3581d20859e9",
+        "creation_date_time": "2016-01-01T09:22:08Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T09:21:08Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "minutes-moderate-activity",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T07:48:08Z",
+            "duration": {
+              "unit": "min",
+              "value": 93.83351253405002
+            }
+          }
+        },
+        "minutes_moderate_activity": {
+          "unit": "min",
+          "value": 93.83351253405002
+        }
+      },
+      "id": "fb62ef40-62de-40e7-a175-3581d20859e9"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2a6"
+      },
+      "header": {
+        "id": "0b604314-0d7b-41ae-b90a-6d38ca0ef450",
+        "creation_date_time": "2016-01-01T08:54:40Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T08:53:40Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "minutes-moderate-activity",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T07:28:40Z",
+            "duration": {
+              "unit": "min",
+              "value": 85.93976785632138
+            }
+          }
+        },
+        "minutes_moderate_activity": {
+          "unit": "min",
+          "value": 85.93976785632138
+        }
+      },
+      "id": "0b604314-0d7b-41ae-b90a-6d38ca0ef450"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2a7"
+      },
+      "header": {
+        "id": "30fc0e5b-f886-4edd-8c8b-1e3d09768393",
+        "creation_date_time": "2016-01-01T10:07:22Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T10:06:22Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "minutes-moderate-activity",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T07:48:22Z",
+            "duration": {
+              "unit": "min",
+              "value": 138.03898910924613
+            }
+          }
+        },
+        "minutes_moderate_activity": {
+          "unit": "min",
+          "value": 138.03898910924613
+        }
+      },
+      "id": "30fc0e5b-f886-4edd-8c8b-1e3d09768393"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2a8"
+      },
+      "header": {
+        "id": "faadb9ed-105c-4430-ae39-effd56ba6de8",
+        "creation_date_time": "2016-01-01T10:01:07Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T10:00:07Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "minutes-moderate-activity",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T08:26:07Z",
+            "duration": {
+              "unit": "min",
+              "value": 94.96217435712211
+            }
+          }
+        },
+        "minutes_moderate_activity": {
+          "unit": "min",
+          "value": 94.96217435712211
+        }
+      },
+      "id": "faadb9ed-105c-4430-ae39-effd56ba6de8"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2a9"
+      },
+      "header": {
+        "id": "312f895a-dbbb-4af0-887a-736116d9ad91",
+        "creation_date_time": "2016-01-01T11:20:24Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T11:19:24Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "minutes-moderate-activity",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T09:00:24Z",
+            "duration": {
+              "unit": "min",
+              "value": 139.94799227071533
+            }
+          }
+        },
+        "minutes_moderate_activity": {
+          "unit": "min",
+          "value": 139.94799227071533
+        }
+      },
+      "id": "312f895a-dbbb-4af0-887a-736116d9ad91"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2aa"
+      },
+      "header": {
+        "id": "5b6f3fea-48ac-4857-928f-3f67c4038060",
+        "creation_date_time": "2016-01-01T11:50:54Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T11:49:54Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "minutes-moderate-activity",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T09:39:54Z",
+            "duration": {
+              "unit": "min",
+              "value": 130.2438317782844
+            }
+          }
+        },
+        "minutes_moderate_activity": {
+          "unit": "min",
+          "value": 130.2438317782844
+        }
+      },
+      "id": "5b6f3fea-48ac-4857-928f-3f67c4038060"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2ab"
+      },
+      "header": {
+        "id": "b7951481-95bf-4295-a954-75650bfeaadf",
+        "creation_date_time": "2016-01-01T13:02:34Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T13:01:34Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "minutes-moderate-activity",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T11:12:34Z",
+            "duration": {
+              "unit": "min",
+              "value": 109.13193607910652
+            }
+          }
+        },
+        "minutes_moderate_activity": {
+          "unit": "min",
+          "value": 109.13193607910652
+        }
+      },
+      "id": "b7951481-95bf-4295-a954-75650bfeaadf"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2ac"
+      },
+      "header": {
+        "id": "0d4d3bf7-637a-4f60-8f94-147d1cdb89e0",
+        "creation_date_time": "2016-01-01T15:05:57Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T15:04:57Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "minutes-moderate-activity",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T12:37:57Z",
+            "duration": {
+              "unit": "min",
+              "value": 147.17009470209194
+            }
+          }
+        },
+        "minutes_moderate_activity": {
+          "unit": "min",
+          "value": 147.17009470209194
+        }
+      },
+      "id": "0d4d3bf7-637a-4f60-8f94-147d1cdb89e0"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2ad"
+      },
+      "header": {
+        "id": "03788c44-f12f-4e5f-8d51-6b23045b6506",
+        "creation_date_time": "2016-01-01T14:59:48Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T14:58:48Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "minutes-moderate-activity",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T13:41:48Z",
+            "duration": {
+              "unit": "min",
+              "value": 77.71556662942687
+            }
+          }
+        },
+        "minutes_moderate_activity": {
+          "unit": "min",
+          "value": 77.71556662942687
+        }
+      },
+      "id": "03788c44-f12f-4e5f-8d51-6b23045b6506"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2ae"
+      },
+      "header": {
+        "id": "7e8a48d2-466d-407e-beba-79b4e2281b97",
+        "creation_date_time": "2016-01-01T16:29:04Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T16:28:04Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "minutes-moderate-activity",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T14:06:04Z",
+            "duration": {
+              "unit": "min",
+              "value": 142.29170727363723
+            }
+          }
+        },
+        "minutes_moderate_activity": {
+          "unit": "min",
+          "value": 142.29170727363723
+        }
+      },
+      "id": "7e8a48d2-466d-407e-beba-79b4e2281b97"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2af"
+      },
+      "header": {
+        "id": "c06bbaad-4e04-4c79-a29d-80212772f935",
+        "creation_date_time": "2016-01-01T18:36:04Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T18:35:04Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "minutes-moderate-activity",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T15:41:04Z",
+            "duration": {
+              "unit": "min",
+              "value": 174.80424941121467
+            }
+          }
+        },
+        "minutes_moderate_activity": {
+          "unit": "min",
+          "value": 174.80424941121467
+        }
+      },
+      "id": "c06bbaad-4e04-4c79-a29d-80212772f935"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2b0"
+      },
+      "header": {
+        "id": "40a0cd6b-9b7f-4507-87c6-7e16b93d01a9",
+        "creation_date_time": "2016-01-01T19:05:35Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T19:04:35Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "minutes-moderate-activity",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T16:39:35Z",
+            "duration": {
+              "unit": "min",
+              "value": 145.52523987624105
+            }
+          }
+        },
+        "minutes_moderate_activity": {
+          "unit": "min",
+          "value": 145.52523987624105
+        }
+      },
+      "id": "40a0cd6b-9b7f-4507-87c6-7e16b93d01a9"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2b1"
+      },
+      "header": {
+        "id": "82973539-5ad4-4ac6-9109-cbba5de4297b",
+        "creation_date_time": "2016-01-01T19:50:25Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T19:49:25Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "minutes-moderate-activity",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T16:45:25Z",
+            "duration": {
+              "unit": "min",
+              "value": 184.3222342642626
+            }
+          }
+        },
+        "minutes_moderate_activity": {
+          "unit": "min",
+          "value": 184.3222342642626
+        }
+      },
+      "id": "82973539-5ad4-4ac6-9109-cbba5de4297b"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2b2"
+      },
+      "header": {
+        "id": "1d229164-b4e9-4b2d-a004-ab1258fa354a",
+        "creation_date_time": "2016-01-01T19:56:23Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T19:55:23Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "minutes-moderate-activity",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T17:03:23Z",
+            "duration": {
+              "unit": "min",
+              "value": 172.87894129964513
+            }
+          }
+        },
+        "minutes_moderate_activity": {
+          "unit": "min",
+          "value": 172.87894129964513
+        }
+      },
+      "id": "1d229164-b4e9-4b2d-a004-ab1258fa354a"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2b3"
+      },
+      "header": {
+        "id": "09e5c856-7c8d-4215-9f05-d2ff013837b3",
+        "creation_date_time": "2016-01-01T21:43:46Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T21:42:46Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "minutes-moderate-activity",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T18:01:46Z",
+            "duration": {
+              "unit": "min",
+              "value": 221.82058377143917
+            }
+          }
+        },
+        "minutes_moderate_activity": {
+          "unit": "min",
+          "value": 221.82058377143917
+        }
+      },
+      "id": "09e5c856-7c8d-4215-9f05-d2ff013837b3"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2b4"
+      },
+      "header": {
+        "id": "2aa39f3a-f897-4929-b265-49a4a9b33fd5",
+        "creation_date_time": "2016-01-01T21:26:34Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T21:25:34Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "minutes-moderate-activity",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T18:05:34Z",
+            "duration": {
+              "unit": "min",
+              "value": 200.04681241945232
+            }
+          }
+        },
+        "minutes_moderate_activity": {
+          "unit": "min",
+          "value": 200.04681241945232
+        }
+      },
+      "id": "2aa39f3a-f897-4929-b265-49a4a9b33fd5"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2b5"
+      },
+      "header": {
+        "id": "8b7b6116-4c7f-4c3c-91ce-ea7daea0de34",
+        "creation_date_time": "2016-01-01T20:54:58Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T20:53:58Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "minutes-moderate-activity",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T18:03:58Z",
+            "duration": {
+              "unit": "min",
+              "value": 170.94329653449472
+            }
+          }
+        },
+        "minutes_moderate_activity": {
+          "unit": "min",
+          "value": 170.94329653449472
+        }
+      },
+      "id": "8b7b6116-4c7f-4c3c-91ce-ea7daea0de34"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2b6"
+      },
+      "header": {
+        "id": "16994d74-1e0e-42fd-a253-a7225c341e27",
+        "creation_date_time": "2016-01-01T23:49:48Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T23:48:48Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "minutes-moderate-activity",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T20:38:48Z",
+            "duration": {
+              "unit": "min",
+              "value": 190.3903444023849
+            }
+          }
+        },
+        "minutes_moderate_activity": {
+          "unit": "min",
+          "value": 190.3903444023849
+        }
+      },
+      "id": "16994d74-1e0e-42fd-a253-a7225c341e27"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2b7"
+      },
+      "header": {
+        "id": "ee253521-d45e-47d5-a670-0cd97057aca2",
+        "creation_date_time": "2016-01-02T01:14:17Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-02T01:13:17Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "minutes-moderate-activity",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T21:21:17Z",
+            "duration": {
+              "unit": "min",
+              "value": 232.73191101948802
+            }
+          }
+        },
+        "minutes_moderate_activity": {
+          "unit": "min",
+          "value": 232.73191101948802
+        }
+      },
+      "id": "ee253521-d45e-47d5-a670-0cd97057aca2"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2b8"
+      },
+      "header": {
+        "id": "d64c126c-0914-4e02-aaa4-c93fe2c2a212",
+        "creation_date_time": "2016-01-02T02:22:58Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-02T02:21:58Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "minutes-moderate-activity",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T22:32:58Z",
+            "duration": {
+              "unit": "min",
+              "value": 229.6519753479752
+            }
+          }
+        },
+        "minutes_moderate_activity": {
+          "unit": "min",
+          "value": 229.6519753479752
+        }
+      },
+      "id": "d64c126c-0914-4e02-aaa4-c93fe2c2a212"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2b9"
+      },
+      "header": {
+        "id": "70d6f2d3-c462-4289-acc5-24cb9543d366",
+        "creation_date_time": "2016-01-02T03:45:32Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-02T03:44:32Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "minutes-moderate-activity",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T23:15:32Z",
+            "duration": {
+              "unit": "min",
+              "value": 269.205317150066
+            }
+          }
+        },
+        "minutes_moderate_activity": {
+          "unit": "min",
+          "value": 269.205317150066
+        }
+      },
+      "id": "70d6f2d3-c462-4289-acc5-24cb9543d366"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2ba"
+      },
+      "header": {
+        "id": "897d16dd-cf1a-42b2-9205-8664019005e6",
+        "creation_date_time": "2016-01-02T04:20:19Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-02T04:19:19Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "minutes-moderate-activity",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T23:59:19Z",
+            "duration": {
+              "unit": "min",
+              "value": 260.6101945631605
+            }
+          }
+        },
+        "minutes_moderate_activity": {
+          "unit": "min",
+          "value": 260.6101945631605
+        }
+      },
+      "id": "897d16dd-cf1a-42b2-9205-8664019005e6"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2bb"
+      },
+      "header": {
+        "id": "90303bff-b2ce-4eb7-acda-67dc439ccefa",
+        "creation_date_time": "2016-01-01T00:53:12Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T00:52:12Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "body-temperature",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T00:52:12Z"
+        },
+        "body_temperature": {
+          "unit": "C",
+          "value": 36.77782934775206
+        },
+        "measurement_location": "oral"
+      },
+      "id": "90303bff-b2ce-4eb7-acda-67dc439ccefa"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2bc"
+      },
+      "header": {
+        "id": "0f36171a-cfb9-4325-b361-48ff330e363d",
+        "creation_date_time": "2016-01-01T01:03:33Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T01:02:33Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "body-temperature",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T01:02:33Z"
+        },
+        "body_temperature": {
+          "unit": "C",
+          "value": 36.50284891258219
+        },
+        "measurement_location": "oral"
+      },
+      "id": "0f36171a-cfb9-4325-b361-48ff330e363d"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2bd"
+      },
+      "header": {
+        "id": "f0641be9-b52a-4bb1-80b7-36cc9f4cb288",
+        "creation_date_time": "2016-01-01T01:21:01Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T01:20:01Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "body-temperature",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T01:20:01Z"
+        },
+        "body_temperature": {
+          "unit": "C",
+          "value": 36.58623817447248
+        },
+        "measurement_location": "oral"
+      },
+      "id": "f0641be9-b52a-4bb1-80b7-36cc9f4cb288"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2be"
+      },
+      "header": {
+        "id": "ec74883b-83d0-4a43-bcfa-efd14d02d8b8",
+        "creation_date_time": "2016-01-01T03:37:23Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T03:36:23Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "body-temperature",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T03:36:23Z"
+        },
+        "body_temperature": {
+          "unit": "C",
+          "value": 36.6767611998756
+        },
+        "measurement_location": "oral"
+      },
+      "id": "ec74883b-83d0-4a43-bcfa-efd14d02d8b8"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2bf"
+      },
+      "header": {
+        "id": "1b4203ee-f751-4e0b-9f8a-48238b1c9095",
+        "creation_date_time": "2016-01-01T03:20:27Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T03:19:27Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "body-temperature",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T03:19:27Z"
+        },
+        "body_temperature": {
+          "unit": "C",
+          "value": 36.63891010796725
+        },
+        "measurement_location": "oral"
+      },
+      "id": "1b4203ee-f751-4e0b-9f8a-48238b1c9095"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2c0"
+      },
+      "header": {
+        "id": "4a589846-9420-4b4a-9d2a-f2641c60e738",
+        "creation_date_time": "2016-01-01T03:48:45Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T03:47:45Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "body-temperature",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T03:47:45Z"
+        },
+        "body_temperature": {
+          "unit": "C",
+          "value": 36.92196448714173
+        },
+        "measurement_location": "oral"
+      },
+      "id": "4a589846-9420-4b4a-9d2a-f2641c60e738"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2c1"
+      },
+      "header": {
+        "id": "893f0812-7b6c-4d70-9045-dec1e2628e3d",
+        "creation_date_time": "2016-01-01T05:05:36Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T05:04:36Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "body-temperature",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T05:04:36Z"
+        },
+        "body_temperature": {
+          "unit": "C",
+          "value": 36.7033513338563
+        },
+        "measurement_location": "oral"
+      },
+      "id": "893f0812-7b6c-4d70-9045-dec1e2628e3d"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2c2"
+      },
+      "header": {
+        "id": "14b0ae5f-3330-4320-a82a-b451164356b7",
+        "creation_date_time": "2016-01-01T04:40:11Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T04:39:11Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "body-temperature",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T04:39:11Z"
+        },
+        "body_temperature": {
+          "unit": "C",
+          "value": 36.836443847569704
+        },
+        "measurement_location": "oral"
+      },
+      "id": "14b0ae5f-3330-4320-a82a-b451164356b7"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2c3"
+      },
+      "header": {
+        "id": "d683d864-7af3-4dfe-9c60-dd1df7186edc",
+        "creation_date_time": "2016-01-01T05:30:38Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T05:29:38Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "body-temperature",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T05:29:38Z"
+        },
+        "body_temperature": {
+          "unit": "C",
+          "value": 37.09903672596629
+        },
+        "measurement_location": "oral"
+      },
+      "id": "d683d864-7af3-4dfe-9c60-dd1df7186edc"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2c4"
+      },
+      "header": {
+        "id": "ac3f5251-fdb0-45dc-9239-d97078aaa195",
+        "creation_date_time": "2016-01-01T05:51:24Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T05:50:24Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "body-temperature",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T05:50:24Z"
+        },
+        "body_temperature": {
+          "unit": "C",
+          "value": 36.90484046644347
+        },
+        "measurement_location": "oral"
+      },
+      "id": "ac3f5251-fdb0-45dc-9239-d97078aaa195"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2c5"
+      },
+      "header": {
+        "id": "4bd342f7-dab4-4964-a234-9c3a2a006923",
+        "creation_date_time": "2016-01-01T05:20:41Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T05:19:41Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "body-temperature",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T05:19:41Z"
+        },
+        "body_temperature": {
+          "unit": "C",
+          "value": 36.58619637612184
+        },
+        "measurement_location": "oral"
+      },
+      "id": "4bd342f7-dab4-4964-a234-9c3a2a006923"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2c6"
+      },
+      "header": {
+        "id": "0cc2d4f1-2db1-4b22-bfba-34b47f1c7f79",
+        "creation_date_time": "2016-01-01T10:15:36Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T10:14:36Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "body-temperature",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T10:14:36Z"
+        },
+        "body_temperature": {
+          "unit": "C",
+          "value": 36.59271736144962
+        },
+        "measurement_location": "oral"
+      },
+      "id": "0cc2d4f1-2db1-4b22-bfba-34b47f1c7f79"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2c7"
+      },
+      "header": {
+        "id": "ae3bac29-8ae5-42fd-be77-b60c9039a784",
+        "creation_date_time": "2016-01-01T12:31:51Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T12:30:51Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "body-temperature",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T12:30:51Z"
+        },
+        "body_temperature": {
+          "unit": "C",
+          "value": 36.84797306017691
+        },
+        "measurement_location": "oral"
+      },
+      "id": "ae3bac29-8ae5-42fd-be77-b60c9039a784"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2c8"
+      },
+      "header": {
+        "id": "7817fd50-b923-4298-8e9c-44d4c4d105bc",
+        "creation_date_time": "2016-01-01T12:49:29Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T12:48:29Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "body-temperature",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T12:48:29Z"
+        },
+        "body_temperature": {
+          "unit": "C",
+          "value": 36.5549444335339
+        },
+        "measurement_location": "oral"
+      },
+      "id": "7817fd50-b923-4298-8e9c-44d4c4d105bc"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2c9"
+      },
+      "header": {
+        "id": "358da46e-edc4-4920-9652-86d2148e29b8",
+        "creation_date_time": "2016-01-01T12:49:12Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T12:48:12Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "body-temperature",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T12:48:12Z"
+        },
+        "body_temperature": {
+          "unit": "C",
+          "value": 37.20302816660963
+        },
+        "measurement_location": "oral"
+      },
+      "id": "358da46e-edc4-4920-9652-86d2148e29b8"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2ca"
+      },
+      "header": {
+        "id": "a967bdbe-1af6-4b65-b076-5745fd3339fc",
+        "creation_date_time": "2016-01-01T15:46:27Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T15:45:27Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "body-temperature",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T15:45:27Z"
+        },
+        "body_temperature": {
+          "unit": "C",
+          "value": 36.80163698121642
+        },
+        "measurement_location": "oral"
+      },
+      "id": "a967bdbe-1af6-4b65-b076-5745fd3339fc"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2cb"
+      },
+      "header": {
+        "id": "bf652314-05fa-429e-9356-d29fd3647eff",
+        "creation_date_time": "2016-01-01T19:05:50Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T19:04:50Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "body-temperature",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T19:04:50Z"
+        },
+        "body_temperature": {
+          "unit": "C",
+          "value": 37.191680095125754
+        },
+        "measurement_location": "oral"
+      },
+      "id": "bf652314-05fa-429e-9356-d29fd3647eff"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2cc"
+      },
+      "header": {
+        "id": "a41268f7-409a-4bce-85e0-aef46e803eca",
+        "creation_date_time": "2016-01-01T19:09:43Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T19:08:43Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "body-temperature",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T19:08:43Z"
+        },
+        "body_temperature": {
+          "unit": "C",
+          "value": 36.90867938958166
+        },
+        "measurement_location": "oral"
+      },
+      "id": "a41268f7-409a-4bce-85e0-aef46e803eca"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2cd"
+      },
+      "header": {
+        "id": "6db72410-3ce0-4139-9fc5-43d9207a9f88",
+        "creation_date_time": "2016-01-01T21:36:52Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T21:35:52Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "body-temperature",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T21:35:52Z"
+        },
+        "body_temperature": {
+          "unit": "C",
+          "value": 36.980995200501035
+        },
+        "measurement_location": "oral"
+      },
+      "id": "6db72410-3ce0-4139-9fc5-43d9207a9f88"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2ce"
+      },
+      "header": {
+        "id": "c3848d94-5c0c-4615-a6af-3b741017a2fc",
+        "creation_date_time": "2016-01-01T23:40:53Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T23:39:53Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "body-temperature",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T23:39:53Z"
+        },
+        "body_temperature": {
+          "unit": "C",
+          "value": 37.02023984863706
+        },
+        "measurement_location": "oral"
+      },
+      "id": "c3848d94-5c0c-4615-a6af-3b741017a2fc"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2cf"
+      },
+      "header": {
+        "id": "24ce8518-e63f-4d7c-aac3-8ff66b4596e6",
+        "creation_date_time": "2016-01-01T19:32:25Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T19:31:25Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "body-temperature",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T19:31:25Z"
+        },
+        "body_temperature": {
+          "unit": "C",
+          "value": 36.550509712558174
+        },
+        "measurement_location": "oral"
+      },
+      "id": "24ce8518-e63f-4d7c-aac3-8ff66b4596e6"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2d0"
+      },
+      "header": {
+        "id": "60cb0e14-0d5f-4e43-bd8d-7c8f994e07fd",
+        "creation_date_time": "2016-01-01T15:04:15Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T15:03:15Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "sleep-duration",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T00:03:15Z",
+            "duration": {
+              "unit": "h",
+              "value": 15.537591567610278
+            }
+          }
+        },
+        "sleep_duration": {
+          "unit": "h",
+          "value": 15.537591567610278
+        }
+      },
+      "id": "60cb0e14-0d5f-4e43-bd8d-7c8f994e07fd"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2d1"
+      },
+      "header": {
+        "id": "345328d5-a57d-4498-a591-9915854ccbb2",
+        "creation_date_time": "2016-01-01T17:18:30Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T17:17:30Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "sleep-duration",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T00:17:30Z",
+            "duration": {
+              "unit": "h",
+              "value": 17.398379412730783
+            }
+          }
+        },
+        "sleep_duration": {
+          "unit": "h",
+          "value": 17.398379412730783
+        }
+      },
+      "id": "345328d5-a57d-4498-a591-9915854ccbb2"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2d2"
+      },
+      "header": {
+        "id": "41ea09f8-4b0b-4079-ab6d-380cb5965eaf",
+        "creation_date_time": "2016-01-01T18:09:30Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T18:08:30Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "sleep-duration",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T02:08:30Z",
+            "duration": {
+              "unit": "h",
+              "value": 16.256917834255507
+            }
+          }
+        },
+        "sleep_duration": {
+          "unit": "h",
+          "value": 16.256917834255507
+        }
+      },
+      "id": "41ea09f8-4b0b-4079-ab6d-380cb5965eaf"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2d3"
+      },
+      "header": {
+        "id": "fcbc3660-e8fe-4c21-a1aa-7382c9324ca0",
+        "creation_date_time": "2016-01-01T19:17:46Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T19:16:46Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "sleep-duration",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T02:16:46Z",
+            "duration": {
+              "unit": "h",
+              "value": 17.045315222340218
+            }
+          }
+        },
+        "sleep_duration": {
+          "unit": "h",
+          "value": 17.045315222340218
+        }
+      },
+      "id": "fcbc3660-e8fe-4c21-a1aa-7382c9324ca0"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2d4"
+      },
+      "header": {
+        "id": "5349c344-0298-484f-913b-c68aeb32745b",
+        "creation_date_time": "2016-01-01T17:52:27Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T17:51:27Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "sleep-duration",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T02:51:27Z",
+            "duration": {
+              "unit": "h",
+              "value": 15.740908321061877
+            }
+          }
+        },
+        "sleep_duration": {
+          "unit": "h",
+          "value": 15.740908321061877
+        }
+      },
+      "id": "5349c344-0298-484f-913b-c68aeb32745b"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2d5"
+      },
+      "header": {
+        "id": "eb5ce4bd-a82f-4ade-b0df-84bfc68b02f6",
+        "creation_date_time": "2016-01-01T20:22:19Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T20:21:19Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "sleep-duration",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T03:21:19Z",
+            "duration": {
+              "unit": "h",
+              "value": 17.91272753704278
+            }
+          }
+        },
+        "sleep_duration": {
+          "unit": "h",
+          "value": 17.91272753704278
+        }
+      },
+      "id": "eb5ce4bd-a82f-4ade-b0df-84bfc68b02f6"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2d6"
+      },
+      "header": {
+        "id": "ad83382b-4e27-4519-b128-6d55f3f10dc8",
+        "creation_date_time": "2016-01-01T17:34:20Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T17:33:20Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "sleep-duration",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T05:33:20Z",
+            "duration": {
+              "unit": "h",
+              "value": 12.863400462996488
+            }
+          }
+        },
+        "sleep_duration": {
+          "unit": "h",
+          "value": 12.863400462996488
+        }
+      },
+      "id": "ad83382b-4e27-4519-b128-6d55f3f10dc8"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2d7"
+      },
+      "header": {
+        "id": "edc88b9c-1d08-43ce-8313-38313b2a3411",
+        "creation_date_time": "2016-01-01T22:38:32Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T22:37:32Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "sleep-duration",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T05:37:32Z",
+            "duration": {
+              "unit": "h",
+              "value": 17.1752482745152
+            }
+          }
+        },
+        "sleep_duration": {
+          "unit": "h",
+          "value": 17.1752482745152
+        }
+      },
+      "id": "edc88b9c-1d08-43ce-8313-38313b2a3411"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2d8"
+      },
+      "header": {
+        "id": "080f20eb-6f69-48f1-bd24-1192556f588f",
+        "creation_date_time": "2016-01-01T21:57:48Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T21:56:48Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "sleep-duration",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T05:56:48Z",
+            "duration": {
+              "unit": "h",
+              "value": 16.68118300971602
+            }
+          }
+        },
+        "sleep_duration": {
+          "unit": "h",
+          "value": 16.68118300971602
+        }
+      },
+      "id": "080f20eb-6f69-48f1-bd24-1192556f588f"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2d9"
+      },
+      "header": {
+        "id": "d4e20d01-e5c8-46d4-b5c5-fbf282b09b25",
+        "creation_date_time": "2016-01-01T23:18:50Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T23:17:50Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "sleep-duration",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T06:17:50Z",
+            "duration": {
+              "unit": "h",
+              "value": 17.378000383083403
+            }
+          }
+        },
+        "sleep_duration": {
+          "unit": "h",
+          "value": 17.378000383083403
+        }
+      },
+      "id": "d4e20d01-e5c8-46d4-b5c5-fbf282b09b25"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2da"
+      },
+      "header": {
+        "id": "09b468f6-c97a-4e69-8892-c027f6b67b65",
+        "creation_date_time": "2016-01-01T21:56:47Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T21:55:47Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "sleep-duration",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T07:55:47Z",
+            "duration": {
+              "unit": "h",
+              "value": 14.390701964865556
+            }
+          }
+        },
+        "sleep_duration": {
+          "unit": "h",
+          "value": 14.390701964865556
+        }
+      },
+      "id": "09b468f6-c97a-4e69-8892-c027f6b67b65"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2db"
+      },
+      "header": {
+        "id": "3fb76c30-7b1d-4339-9d90-101edb503224",
+        "creation_date_time": "2016-01-01T22:21:09Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T22:20:09Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "sleep-duration",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T08:20:09Z",
+            "duration": {
+              "unit": "h",
+              "value": 14.896837034977468
+            }
+          }
+        },
+        "sleep_duration": {
+          "unit": "h",
+          "value": 14.896837034977468
+        }
+      },
+      "id": "3fb76c30-7b1d-4339-9d90-101edb503224"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2dc"
+      },
+      "header": {
+        "id": "5abd9fbe-8fd4-46dc-a6b7-b7cbc9d0acfc",
+        "creation_date_time": "2016-01-01T17:50:32Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T17:49:32Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "sleep-duration",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T08:49:32Z",
+            "duration": {
+              "unit": "h",
+              "value": 9.22509755348601
+            }
+          }
+        },
+        "sleep_duration": {
+          "unit": "h",
+          "value": 9.22509755348601
+        }
+      },
+      "id": "5abd9fbe-8fd4-46dc-a6b7-b7cbc9d0acfc"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2dd"
+      },
+      "header": {
+        "id": "32e5e74d-4893-4774-9c06-53314969f291",
+        "creation_date_time": "2016-01-01T22:33:02Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T22:32:02Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "sleep-duration",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T09:32:02Z",
+            "duration": {
+              "unit": "h",
+              "value": 13.53445928200854
+            }
+          }
+        },
+        "sleep_duration": {
+          "unit": "h",
+          "value": 13.53445928200854
+        }
+      },
+      "id": "32e5e74d-4893-4774-9c06-53314969f291"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2de"
+      },
+      "header": {
+        "id": "5e303929-789a-4061-8b78-6666be6de97e",
+        "creation_date_time": "2016-01-01T22:16:37Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T22:15:37Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "sleep-duration",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T13:15:37Z",
+            "duration": {
+              "unit": "h",
+              "value": 9.836206762190669
+            }
+          }
+        },
+        "sleep_duration": {
+          "unit": "h",
+          "value": 9.836206762190669
+        }
+      },
+      "id": "5e303929-789a-4061-8b78-6666be6de97e"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2df"
+      },
+      "header": {
+        "id": "46ca1a99-5126-4dc5-ae61-c3fc06cb76d5",
+        "creation_date_time": "2016-01-02T03:26:01Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-02T03:25:01Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "sleep-duration",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T14:25:01Z",
+            "duration": {
+              "unit": "h",
+              "value": 13.04321464194796
+            }
+          }
+        },
+        "sleep_duration": {
+          "unit": "h",
+          "value": 13.04321464194796
+        }
+      },
+      "id": "46ca1a99-5126-4dc5-ae61-c3fc06cb76d5"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2e0"
+      },
+      "header": {
+        "id": "5aec8ad7-abd5-4515-a14b-67b8618f5b63",
+        "creation_date_time": "2016-01-02T03:37:41Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-02T03:36:41Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "sleep-duration",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T14:36:41Z",
+            "duration": {
+              "unit": "h",
+              "value": 13.48216224304839
+            }
+          }
+        },
+        "sleep_duration": {
+          "unit": "h",
+          "value": 13.48216224304839
+        }
+      },
+      "id": "5aec8ad7-abd5-4515-a14b-67b8618f5b63"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2e1"
+      },
+      "header": {
+        "id": "52c8d243-0370-4936-ad6d-2163ed729990",
+        "creation_date_time": "2016-01-02T07:32:00Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-02T07:31:00Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "sleep-duration",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T15:31:00Z",
+            "duration": {
+              "unit": "h",
+              "value": 16.956040518370415
+            }
+          }
+        },
+        "sleep_duration": {
+          "unit": "h",
+          "value": 16.956040518370415
+        }
+      },
+      "id": "52c8d243-0370-4936-ad6d-2163ed729990"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2e2"
+      },
+      "header": {
+        "id": "a672cf9d-d480-4dd1-b3f8-b4755628c948",
+        "creation_date_time": "2016-01-02T05:01:17Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-02T05:00:17Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "sleep-duration",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T16:00:17Z",
+            "duration": {
+              "unit": "h",
+              "value": 13.73315943381693
+            }
+          }
+        },
+        "sleep_duration": {
+          "unit": "h",
+          "value": 13.73315943381693
+        }
+      },
+      "id": "a672cf9d-d480-4dd1-b3f8-b4755628c948"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2e3"
+      },
+      "header": {
+        "id": "b5fe261d-a4aa-4822-9501-9d9056202157",
+        "creation_date_time": "2016-01-02T06:46:40Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-02T06:45:40Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "sleep-duration",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T18:45:40Z",
+            "duration": {
+              "unit": "h",
+              "value": 12.663461383655077
+            }
+          }
+        },
+        "sleep_duration": {
+          "unit": "h",
+          "value": 12.663461383655077
+        }
+      },
+      "id": "b5fe261d-a4aa-4822-9501-9d9056202157"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2e4"
+      },
+      "header": {
+        "id": "d8d14e44-5114-4952-a813-d406ad85f803",
+        "creation_date_time": "2016-01-02T02:37:17Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-02T02:36:17Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "sleep-duration",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T18:36:17Z",
+            "duration": {
+              "unit": "h",
+              "value": 8.823173109423488
+            }
+          }
+        },
+        "sleep_duration": {
+          "unit": "h",
+          "value": 8.823173109423488
+        }
+      },
+      "id": "d8d14e44-5114-4952-a813-d406ad85f803"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2e5"
+      },
+      "header": {
+        "id": "1d385105-f062-4a17-a279-8324b97f876e",
+        "creation_date_time": "2016-01-02T03:47:13Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-02T03:46:13Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "sleep-duration",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T18:46:13Z",
+            "duration": {
+              "unit": "h",
+              "value": 9.45469489853813
+            }
+          }
+        },
+        "sleep_duration": {
+          "unit": "h",
+          "value": 9.45469489853813
+        }
+      },
+      "id": "1d385105-f062-4a17-a279-8324b97f876e"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2e6"
+      },
+      "header": {
+        "id": "98d2746d-70c6-4c82-805f-28c78dd4be7e",
+        "creation_date_time": "2016-01-02T10:55:06Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-02T10:54:06Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "sleep-duration",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T19:54:06Z",
+            "duration": {
+              "unit": "h",
+              "value": 15.59202728516383
+            }
+          }
+        },
+        "sleep_duration": {
+          "unit": "h",
+          "value": 15.59202728516383
+        }
+      },
+      "id": "98d2746d-70c6-4c82-805f-28c78dd4be7e"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2e7"
+      },
+      "header": {
+        "id": "2db642d9-b99e-45a6-b1f6-79039a483995",
+        "creation_date_time": "2016-01-02T09:02:56Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-02T09:01:56Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "sleep-duration",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T21:01:56Z",
+            "duration": {
+              "unit": "h",
+              "value": 12.244917300449785
+            }
+          }
+        },
+        "sleep_duration": {
+          "unit": "h",
+          "value": 12.244917300449785
+        }
+      },
+      "id": "2db642d9-b99e-45a6-b1f6-79039a483995"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2e8"
+      },
+      "header": {
+        "id": "2ec2bef9-ab6c-4a8c-adcb-87ebabcff840",
+        "creation_date_time": "2016-01-02T13:22:26Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-02T13:21:26Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "sleep-duration",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T23:21:26Z",
+            "duration": {
+              "unit": "h",
+              "value": 14.761984173119414
+            }
+          }
+        },
+        "sleep_duration": {
+          "unit": "h",
+          "value": 14.761984173119414
+        }
+      },
+      "id": "2ec2bef9-ab6c-4a8c-adcb-87ebabcff840"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2e9"
+      },
+      "header": {
+        "id": "dce129cc-23b0-4cd3-9f52-fe635f1b99be",
+        "creation_date_time": "2016-01-02T10:52:01Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-02T10:51:01Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "sleep-duration",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "time_interval": {
+            "start_date_time": "2016-01-01T23:51:01Z",
+            "duration": {
+              "unit": "h",
+              "value": 11.380503076969282
+            }
+          }
+        },
+        "sleep_duration": {
+          "unit": "h",
+          "value": 11.380503076969282
+        }
+      },
+      "id": "dce129cc-23b0-4cd3-9f52-fe635f1b99be"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2ea"
+      },
+      "header": {
+        "id": "b1336f8d-1d86-448a-9242-a50c0f3b908c",
+        "creation_date_time": "2016-01-01T01:37:39Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T01:36:39Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "oxygen-saturation",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T01:36:39Z"
+        },
+        "oxygen_saturation": {
+          "unit": "%",
+          "value": 88.5607780182714
+        },
+        "measurement_method": "pulse oximetry",
+        "system": "peripheral capillary"
+      },
+      "id": "b1336f8d-1d86-448a-9242-a50c0f3b908c"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2eb"
+      },
+      "header": {
+        "id": "30c52323-49cb-4772-b702-8ea63dfd96bf",
+        "creation_date_time": "2016-01-01T02:16:13Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T02:15:13Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "oxygen-saturation",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T02:15:13Z"
+        },
+        "oxygen_saturation": {
+          "unit": "%",
+          "value": 91.2131714137291
+        },
+        "measurement_method": "pulse oximetry",
+        "system": "peripheral capillary"
+      },
+      "id": "30c52323-49cb-4772-b702-8ea63dfd96bf"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2ec"
+      },
+      "header": {
+        "id": "978cf267-3e8f-4b4d-9a09-b4eb190e51da",
+        "creation_date_time": "2016-01-01T00:26:38Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T00:25:38Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "oxygen-saturation",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T00:25:38Z"
+        },
+        "oxygen_saturation": {
+          "unit": "%",
+          "value": 95.86658553338341
+        },
+        "measurement_method": "pulse oximetry",
+        "system": "peripheral capillary"
+      },
+      "id": "978cf267-3e8f-4b4d-9a09-b4eb190e51da"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2ed"
+      },
+      "header": {
+        "id": "5d88777a-4851-4985-b5fd-d3992a7ea792",
+        "creation_date_time": "2016-01-01T03:24:17Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T03:23:17Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "oxygen-saturation",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T03:23:17Z"
+        },
+        "oxygen_saturation": {
+          "unit": "%",
+          "value": 98.79726024012301
+        },
+        "measurement_method": "pulse oximetry",
+        "system": "peripheral capillary"
+      },
+      "id": "5d88777a-4851-4985-b5fd-d3992a7ea792"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2ee"
+      },
+      "header": {
+        "id": "5bd57604-6918-4a90-bd60-127e14e1f343",
+        "creation_date_time": "2016-01-01T05:06:48Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T05:05:48Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "oxygen-saturation",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T05:05:48Z"
+        },
+        "oxygen_saturation": {
+          "unit": "%",
+          "value": 96.87370903964833
+        },
+        "measurement_method": "pulse oximetry",
+        "system": "peripheral capillary"
+      },
+      "id": "5bd57604-6918-4a90-bd60-127e14e1f343"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2ef"
+      },
+      "header": {
+        "id": "2f8b7012-e44b-44ae-b003-2d09a4486989",
+        "creation_date_time": "2016-01-01T06:01:42Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T06:00:42Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "oxygen-saturation",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T06:00:42Z"
+        },
+        "oxygen_saturation": {
+          "unit": "%",
+          "value": 97.08539436085681
+        },
+        "measurement_method": "pulse oximetry",
+        "system": "peripheral capillary"
+      },
+      "id": "2f8b7012-e44b-44ae-b003-2d09a4486989"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2f0"
+      },
+      "header": {
+        "id": "9f457f3f-b3b2-459d-af1c-b067a1a6246a",
+        "creation_date_time": "2016-01-01T09:03:42Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T09:02:42Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "oxygen-saturation",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T09:02:42Z"
+        },
+        "oxygen_saturation": {
+          "unit": "%",
+          "value": 95.59632608956504
+        },
+        "measurement_method": "pulse oximetry",
+        "system": "peripheral capillary"
+      },
+      "id": "9f457f3f-b3b2-459d-af1c-b067a1a6246a"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2f1"
+      },
+      "header": {
+        "id": "d2b71f76-0853-4e8d-8a08-989eab79dcd4",
+        "creation_date_time": "2016-01-01T14:59:33Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T14:58:33Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "oxygen-saturation",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T14:58:33Z"
+        },
+        "oxygen_saturation": {
+          "unit": "%",
+          "value": 92.51356893276282
+        },
+        "measurement_method": "pulse oximetry",
+        "system": "peripheral capillary"
+      },
+      "id": "d2b71f76-0853-4e8d-8a08-989eab79dcd4"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2f2"
+      },
+      "header": {
+        "id": "4140f093-711e-4b3e-b93c-93359725d6af",
+        "creation_date_time": "2016-01-01T15:56:59Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T15:55:59Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "oxygen-saturation",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T15:55:59Z"
+        },
+        "oxygen_saturation": {
+          "unit": "%",
+          "value": 94.89477501898622
+        },
+        "measurement_method": "pulse oximetry",
+        "system": "peripheral capillary"
+      },
+      "id": "4140f093-711e-4b3e-b93c-93359725d6af"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2f3"
+      },
+      "header": {
+        "id": "1ec5a4cf-8c4d-4745-9234-c9c45ba9ccf3",
+        "creation_date_time": "2016-01-01T21:11:28Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T21:10:28Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "oxygen-saturation",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T21:10:28Z"
+        },
+        "oxygen_saturation": {
+          "unit": "%",
+          "value": 87.4011113996823
+        },
+        "measurement_method": "pulse oximetry",
+        "system": "peripheral capillary"
+      },
+      "id": "1ec5a4cf-8c4d-4745-9234-c9c45ba9ccf3"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2f4"
+      },
+      "header": {
+        "id": "dbc61735-2c14-4f34-b5de-8b12b015cdd3",
+        "creation_date_time": "2016-01-01T21:16:29Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T21:15:29Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "oxygen-saturation",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T21:15:29Z"
+        },
+        "oxygen_saturation": {
+          "unit": "%",
+          "value": 97.14233182982072
+        },
+        "measurement_method": "pulse oximetry",
+        "system": "peripheral capillary"
+      },
+      "id": "dbc61735-2c14-4f34-b5de-8b12b015cdd3"
+    },
+    {
+      "_id": {
+        "$oid": "582e597ba254a7eaa8b2a2f5"
+      },
+      "header": {
+        "id": "4c0453d7-ac89-4e89-bf11-50422ac62208",
+        "creation_date_time": "2016-01-01T22:47:40Z",
+        "acquisition_provenance": {
+          "source_name": "generator",
+          "source_creation_date_time": "2016-01-01T22:46:40Z",
+          "modality": "sensed"
+        },
+        "user_id": "baby-test001",
+        "schema_id": {
+          "namespace": "omh",
+          "name": "oxygen-saturation",
+          "version": "1.0"
+        }
+      },
+      "body": {
+        "effective_time_frame": {
+          "date_time": "2016-01-01T22:46:40Z"
+        },
+        "oxygen_saturation": {
+          "unit": "%",
+          "value": 97.24914094042909
+        },
+        "measurement_method": "pulse oximetry",
+        "system": "peripheral capillary"
+      },
+      "id": "4c0453d7-ac89-4e89-bf11-50422ac62208"
+    }
+  ]
+}

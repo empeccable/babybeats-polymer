@@ -1,6 +1,6 @@
 {
     "name": "John Doe",
-    "avatarUrl": "resources/user-avatar.jpg",
+    "avatarUrl": "resources/user-avatar.png",
     "goals": [{
         "sport": "running",
         "type": "distance",
@@ -24,9 +24,7 @@
     "sensorsAll": [{
         "name": "blood-pressure"
     }, {
-        "name": "body-weight"
-    }, {
-        "name": "body-height"
+        "name": "minutes-moderate-activity"
     }, {
         "name": "heart-rate"
     }, {

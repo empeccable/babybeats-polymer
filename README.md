@@ -31,3 +31,13 @@ for deployment.
 ```npm install && bower install && gulp dist```
 
 This will result in a distributable application in the ```dist``` subdirectory.
+
+
+Test Data
+---------
+
+Use the sample-data-generator project to generate test data. Then import the data into mongodb.
+Then export valid json using the command options given below.
+
+mongoimport -d babybeats -c sensordata --file output.json
+mongoexport -d babybeats -c sensordata --jsonArray --pretty --out source.json
